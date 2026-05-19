@@ -4217,6 +4217,10 @@ div#«rsl» {
     box-shadow: none;
 }
 
-button[aria-haspopup="menu"] {
+[class*="buttonColor_"] [class*="caret_"],
+[class*="buttonColor_"] [class*="caretContainer_"],
+[class*="buttonColor_"] svg[class*="caret"],
+[class*="attachedCaretButton_"],
+[class*="caretContainer_"] {
     display: none !important;
 }
