@@ -4217,10 +4217,6 @@ div#«rsl» {
     box-shadow: none;
 }
 
-[class*="buttonColor_"] [class*="caret_"],
-[class*="buttonColor_"] [class*="caretContainer_"],
-[class*="buttonColor_"] svg[class*="caret"],
-[class*="attachedCaretButton_"],
-[class*="caretContainer_"] {
+.buttonChevron__5e764 {
     display: none !important;
 }
