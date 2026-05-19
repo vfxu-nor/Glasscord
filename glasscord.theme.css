@@ -1,0 +1,27 @@
+@import url("https://raw.githubusercontent.com/vfxu-nor/Glasscord/refs/heads/main/Glasscord.css");
+/**
+ * @name Glasscord
+ * @author vfxu
+ * @version 1.0.0
+ * @description A clean, modern, and rounded Liquid Glass inspired Discord theme with smooth animations.
+ * @authorId 1491169060363178027
+*/
+/* ===============================================
+   🌫️ Glasscord Theme Settings
+   Adjust your transparency effects here:
+   -----------------------------------------------
+   🔹 --blur-strength: Controls how strong the glass blur is
+   🔹 --brightness-level: Controls how bright the glass appears
+   🔹 --background-image: Change this link to set your own background image
+   -----------------------------------------------
+   Example:
+   --blur-strength: 2rem;        (Blur)
+   --brightness-level: 0.8;      (Brightness)
+   --background-image: url('https://i.imgur.com/TNgovaU.gif'); ('Background')
+=============================================== */
+:root {
+    --blur-strength: 0.7px;
+    --brightness-level: 0.7;
+    --background-image: url('https://i.imgur.com/TNgovaU.gif');
+}
+
