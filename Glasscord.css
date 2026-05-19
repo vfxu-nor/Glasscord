@@ -4217,19 +4217,6 @@ div#«rsl» {
     box-shadow: none;
 }
 
-button[aria-label="Mute"] + div,
-button[aria-label="Deafen"] + div,
-button[aria-label="Disconnect"] + div {
+button[aria-haspopup="menu"] {
     display: none !important;
-}
-
-/* Remove little dropdown buttons */
-.container__37e49 button:has(svg[class*="caret"]),
-.container__37e49 button[aria-haspopup="menu"] {
-    display: none !important;
-}
-
-/* Fix spacing after removing them */
-.panels_c48ade .flex__7c0ba {
-    gap: 8px !important;
 }
